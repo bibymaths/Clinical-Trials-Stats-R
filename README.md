@@ -5,7 +5,7 @@ This repository showcases advanced statistical analysis techniques applied to **
 
 ## Files Included
 
-### **1. ClinicalTrials_Mishra.R**
+### **1. ClinicalTrials_nonpar.R**
 - **Purpose:** Performs statistical analysis on clinical trial data using non-parametric methods.
 - **Key Features:**
   - Implements **Wilcoxon-Mann-Whitney (WMW) test** for rank-sum comparisons.
@@ -18,7 +18,7 @@ This repository showcases advanced statistical analysis techniques applied to **
   - `rank()`, `table()`, `mean()`, `sd()`
   - `ggplot2` for visualization
 
-### **2. solutions.R**
+### **2. ClinicalTrials_mctp.R**
 - **Purpose:** Provides statistical solutions for comparing treatment groups in clinical trials.
 - **Key Features:**
   - Computes **permutation-based probability mass functions (PMF)**.
@@ -46,3 +46,24 @@ This repository showcases advanced statistical analysis techniques applied to **
 Ensure you have the required R packages installed:
 ```r
 install.packages(c("tidyverse", "ggplot2", "dplyr", "nparcomp", "multcomp", "pander"))
+```
+
+## Usage
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/Clinical-Trials-Stats-R.git
+   cd Clinical-Trials-Stats-R
+   ```
+
+2. Run the scripts in RStudio or R console:
+   ```r
+   source("ClinicalTrials_nonpar.R")
+   source("ClinicalTrials_mctp.R")
+   ```
+
+## Author
+**Abhinav Mishra**  
+Master's in Bioinformatics, FU Berlin
+
+## License
+MIT License
